@@ -1,0 +1,314 @@
+  #more {
+            text-align: center;
+        }
+        
+        @font-face {
+            font-family: Gagalin;
+            src: url('Gagalin-Regular.ttf');
+        }
+        
+        #abc {
+            font-size: 60px;
+            color: black;
+        }
+        
+        .abtcont {
+            background-color: rgb(23, 75, 23);
+            width: 1500px;
+            height: 500px;
+            color: white;
+            text-align: center;
+        }
+        
+        .abtcont ul {
+            list-style-type: none;
+            font-family: Gagalin;
+            text-align: center;
+            margin-right: 50px;
+            display: inline-flex;
+            padding: 10px 100px;
+        }
+        
+        .abtcont ul li {
+            font-size: 40px;
+            text-shadow: 2px 2px chartreuse;
+        }
+        
+        .abtcont ul img {
+            width: 70px;
+            height: 70px;
+        }
+        
+        .abtcont h1 {
+            font-family: Gagalin;
+            font-size: 60px;
+            text-shadow: 2px 2px chartreuse;
+        }
+        
+        .abtcont p {
+            font-size: 30px;
+            font-family: Gagalin;
+            text-align: center;
+        }
+        
+        header.topbar {
+            background-color: black;
+            position: fixed;
+            width: 100%;
+            height: 43px;
+            font-size: 30px;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            color: white;
+        }
+        
+        .topbar a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 10px 50px;
+            text-decoration: none;
+            font-size: 18px;
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+        
+        .topbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        .content {
+            margin-top: 43px;
+            z-index: 0;
+            position: absolute;
+        }
+        
+        .button2 {
+            border: 2px solid black;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            font-family: "Sofia";
+        }
+        
+        .button1 {
+            border-radius: 12px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            font-family: "Sofia";
+        }
+        
+        .button1:hover {
+            background-color: red;
+            color: white;
+        }
+        
+        div.at-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+        }
+        
+        div.at-container1 {
+            display: none;
+            align-items: center;
+            justify-content: center;
+            height: 100px;
+        }
+        
+        .at-item {
+            color: white;
+            text-shadow: 4px 4px 8px black;
+            animation-name: focus-in-contract;
+            animation-duration: 3s;
+            animation-timing-function: ease;
+            animation-delay: 0s;
+            animation-iteration-count: 1;
+            animation-direction: normal;
+            animation-fill-mode: none;
+        }
+        
+        .at-item1 {
+            text-shadow: 4px 4px 8px black;
+            color: white;
+            animation-name: focus-in-contract;
+            animation-duration: 6s;
+            animation-timing-function: ease;
+            animation-delay: 0s;
+            animation-iteration-count: 1;
+            animation-direction: normal;
+            animation-fill-mode: none;
+        }
+        
+        @keyframes focus-in-contract {
+            0% {
+                letter-spacing: 1em;
+                filter: blur(12px);
+                opacity: 0;
+            }
+            100% {
+                filter: blur(0);
+                opacity: 1;
+            }
+        }
+        
+        body {
+            margin: 0;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            /* background: hsla(157, 94%, 46%, 1);
+
+background: linear-gradient(0deg, hsla(157, 94%, 46%, 1) 0%, hsla(165, 84%, 23%, 1) 60%);
+
+background: -moz-linear-gradient(0deg, hsla(157, 94%, 46%, 1) 0%, hsla(165, 84%, 23%, 1) 60%);
+
+background: -webkit-linear-gradient(0deg, hsla(157, 94%, 46%, 1) 0%, hsla(165, 84%, 23%, 1) 60%); */
+            /* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#07E38E", endColorstr="#096B53", GradientType=1); */
+            background-color: #00ff7f;
+            font-family: 'Cookie';
+            word-spacing: 4px;
+            letter-spacing: 2px;
+            font-size: 30px;
+            font-family: 'Cookie';
+        }
+        
+        h2 {
+            margin: 0;
+            text-align: center;
+            font-family: 'Big Shoulders Display';
+            font-size: 50px;
+            text-shadow: 4px 4px 8px white;
+        }
+        
+        h5 {
+            font-size: 70px;
+            text-align: center;
+            margin: 0;
+            font-family: 'Big Shoulders Display';
+            text-shadow: 4px 4px 8px white;
+        }
+        
+        h1 {
+            font-size: 100px;
+            text-align: center;
+            font-family: 'Berkshire Swash';
+            text-shadow: 4px 4px 8px white;
+        }
+        
+        h3 {
+            text-align: center;
+            font-family: 'Cookie';
+        }
+        
+        p {
+            font-size: 22px;
+            margin-left: 5%;
+            margin-right: 5%;
+            font-family: 'Cookie';
+            word-spacing: 2px;
+            letter-spacing: 1px;
+        }
+        
+        ul,
+        ol {
+            font-size: 22px;
+            font-family: 'Cookie';
+            word-spacing: 2px;
+            letter-spacing: 1px;
+        }
+        
+        #inc {
+            font-size: 20px;
+            margin-left: 10%;
+            text-align: left;
+            margin-right: 10%;
+        }
+        
+        #di {
+            margin: 0;
+            margin-top: 40px;
+            // background-image:url("https://png.pngtree.com/thumb_back/fh260/back_pic/03/53/33/45579720d58a73c.jpg");
+            //   background-image: url("https://magazine.ivy.com/wp-content/uploads/2016/03/Kitchen_background-1500x600.jpg");
+            background-image: url("recipebg.jpg");
+            height: 500px;
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .topnav a {
+            float: right;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            background-color: rgba(18, 145, 66, 0.705);
+            width: 100%;
+            height: 21px;
+            cursor: pointer;
+        }
+        
+        .topnav a:hover,
+        .topnav a.act:hover {
+            background-color: rgb(240, 191, 126);
+            color: black;
+            cursor: pointer;
+        }
+        
+        .topnav a.act {
+            background-color: #002c00;
+            color: white;
+            cursor: pointer;
+        }
+        
+        hr {
+            color: black;
+        }
+        
+        img {
+            width: 250px;
+            height: 250px;
+            border-radius: 10px;
+        }
+        
+        #im,
+        #im1 {
+            text-align: center;
+            display: block;
+        }
+        
+        iframe {
+            width: 500px;
+            height: 300px;
+            border-radius: 10px;
+        }
+        
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+            opacity: 0.7;
+        }
+        
+        #myBtn:hover {
+            background-color: grey;
+        }

@@ -1,0 +1,159 @@
+<html>
+
+<head>
+    <title>
+        M.A.R.S
+    </title>
+    <link rel="stylesheet" type="text/css" href="Home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <script>
+        var mybutton = document.getElementById("myBtn ");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block ";
+            } else {
+                mybutton.style.display = "none ";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</head>
+
+<body>
+
+    <header class="topbar">
+        <a href="index.html" >Home</a>
+        <a href="order.html" target="_blank">Order Online</a>
+
+        <a href="movies.html" target="_blank">Movies/Shows</a>
+        <a href="books.html" target="_blank">Books</a>
+        <a href="recipe.html" target="_blank">Recipes</a>
+        <a href="yoga.html" target="_blank">Yoga</a>
+        <a href="#about">Contact</a>
+
+    </header>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class="content">
+        <!-- Navigation bar -->
+        <!-- Header: Panel1-->
+        <div class="panel1">
+            <div class="heading">
+                <div class="tracking-in-expand-fwd">
+                    MARS
+                </div>
+            </div>
+
+        </div>
+        <img class="headerimg" src="heading.png">
+        <!-- <div>
+            <video id="food_order_animation" autoplay="" loop="" muted="" playsinline="">
+            <source src="home1.mp4"
+                type="video/mp4">
+        </video>
+        </div>-->
+        <div class="two">
+
+            THINKING WHAT TO DO NEXT??
+            <br> We Have Got You Covered!
+
+        </div>
+
+        <a href="order.html" target="_blank">
+            <img src="Frame 5.png" style="width: 100%;">
+        </a>
+        <div class="panel3">
+            Crush Your Cravings with <br>delicious food at a reasonable prize!
+        </div>
+        <table>
+            <tr>
+                <td class="panel41">
+                    <a href="books.html" target="_blank">
+                        <img id="ooo" src="Frame 1.png">
+                    </a>
+                </td>
+
+                <td class="panel4">
+                    <h2>
+                        While you wait for you food, check out these books to kill some time.
+                    </h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="panel5">
+                    <h2>
+                        Enjoy great food with great movies and shows.
+                    </h2>
+                </td>
+                <td class="panel41">
+
+                    <a href="movies.html" target="_blank">
+                        <img id="ooo" src="Frame 4.png" float: left>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="panel41">
+                    <a href="yoga.html" target="_blank">
+                        <img id="ooo" src="frame 3.png">
+                    </a>
+                </td>
+
+                <td class="panel6">
+                    <h2>
+                        Burn your calories with some easy-to-do yoga
+                    </h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="panel7">
+                    <h2>
+                        Make restraurant like food at home!
+                    </h2>
+                </td>
+                <td class="panel41">
+
+                    <a href="recipe.html" target="_blank">
+                        <img id="ooo" src="Frame 2.png" float: left>
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td class="abtcont" colspan="2" id="about">
+                    <h1>&nbsp;&nbsp;&nbsp;THE LAUNCH TEAM</h1>
+
+                    <ul>
+                        <li>
+                            <img src="businesswoman.png"> <span id="abc">M</span>USKAN </li>
+                        <li>
+                            <img src="businessman.png"> <span id="abc">A</span>BHINAV </li>
+                        <li>
+                            <img src="businesswoman.png"> <span id="abc">R</span>ADHIKA </li>
+                        <li>
+                            <img src="businessman.png"> <span id="abc">S</span>ANDEEP </li>
+                    </ul>
+                    <h1>Contact Us-</h1>
+                    <p>Mob: +91-9999-9999<br> E-mail: mars_inc@mars.in</p>
+
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</body>
+
+</html>

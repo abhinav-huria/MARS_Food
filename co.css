@@ -1,0 +1,76 @@
+  table,
+        body,
+        td,
+        th,
+        tr {
+            margin-top: 0;
+        }
+        
+        body {
+            background-image: url('food2.png');
+            background-attachment: fixed;
+        }
+        
+        .input {
+            width: 30;
+        }
+        
+        table {
+            padding: 0px;
+            border-spacing: 25px;
+            border: 1px solid white;
+            background-color: white;
+            border-radius: 15px;
+            font-family: sans-serif;
+            margin-left: 10px;
+        }
+        
+        .column1 {
+            margin-left: 300px;
+        }
+        
+        .bill {
+            font-size: larger;
+            vertical-align: text-top;
+        }
+        
+        .payment {
+            font-size: larger;
+            vertical-align: text-top;
+        }
+        
+        img {
+            width: 40%;
+            height: 30%;
+        }
+        
+        .button {
+            width: 50%;
+            background-color: coral;
+            border: 1px solid black;
+        }
+        
+        body {
+            background-color: rgb(196, 100, 100);
+        }
+        
+        .button {
+            border-radius: 15px;
+            background-color: rgba(0, 183, 255, 0.432);
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 20%;
+            height: 30%;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+            margin-left: 500px;
+            padding: 5px 5px;
+        }
+        
+        .h1 {
+            text-align: center;
+            color: white;
+            font-size: 50px;
+            text-shadow: 1px 1px navy;
+        }

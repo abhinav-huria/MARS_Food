@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="co.css" />
+<script src="coj.js"></script>
+    <title>
+        Checkout
+    </title>
+    <style>
+      
+    </style>
+
+</head>
+
+<body>
+
+    <h1 class="h1">Mars checkout form</h1>
+
+    <table>
+        <form action="Success.html">
+            <tr>
+                <td class="bill">
+                    <table>
+                        <tr>
+                            <td colspan="2">
+                                <h1>Billing Address</h1>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="fname">Name:</label>
+                            </td>
+                            <td>
+                                <input type="text" id="firstName" onblur="validateFirstName()" name="fname" class="input" required placeholder="Enter your name" required>
+                                <br><small><span id="firstNamePrompt">&nbsp;</span></small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">Enter your email:</label>
+                            </td>
+                            <td>
+                                <input type="email" id="Email" name="email" placeholder="E-mail">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="Address">Address:</label>
+                            </td>
+                            <td>
+                                <input type="address" id="fname" name="fname" class="input" placeholder="Address" required size="30">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="City">City/State:</label>
+                            </td>
+                            <td>
+                                <input type="text" id="fname" name="fname" class="input" value="Chandigarh" readonly required size="10">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> <label for="phone">Enter a phone number:</label>
+                                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" required onblur="validatePhone()">
+                                <br><span id="phonePrompt">xxx-xxx-xxxx</span>
+                                <td>
+                                    <label> PIN: </label>
+                                    <input type="text" id="fname" name="fname" placeholder="1600-- " required size="6" maxlength="6">
+                                </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <label>Date of delivery: </label>
+                                <p id="demo "></p>
+                            </td>
+                            <td>
+                                <label>Preffered time of delivery: </label>
+                                <input type="time" id="fname " name="fname ">
+                            </td>
+
+                        </tr>
+
+                    </table>
+                    </td>
+
+                    <td class="payment ">
+                        <table>
+                            <tr>
+                                <td>
+                                    <h1> Payment </h1>
+                                </td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    Pay via Debit/Credit card
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="Name_card ">Name on card:</label>
+                                </td>
+                                <td>
+                                    <input type="text " id="lastName" name="fname " class="input " placeholder="Name" required onblur="validateLastName()"><br><span id="lastNamePrompt">&nbsp;</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="Name_card ">Debit/Credit card number:</label>
+                                </td>
+                                <td>
+                                    <input type="text " id="card" name="fname " class="input " placeholder="1111-2222-3333-4444 " required onblur="validateCard()">
+                                    <br><span id="cardPrompt"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="Name_card ">EXP</label>
+                                </td>
+                                <td>
+                                    <input type="month" name="expp" class="input ">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label>CVV</label><br>
+
+                                </td>
+                                <td>
+
+                                    <input type="password" id="fname " name="fname " placeholder="123" maxlength="3">
+
+                                </td>
+                            </tr>
+
+                        </table>
+            </tr>
+
+            <tr>
+
+                <td colspan="4">
+                    <input type="submit" class="button" value="Submit">
+
+                </td>
+
+
+            </tr>
+
+        </form>
+
+    </table>
+
+    <br><br>
+    <script>
+        
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,193 @@
+@font-face {
+    font-family: Gagalin;
+    src: url('Gagalin-Regular.ttf');
+}
+
+#abc {
+    font-size: 60px;
+    color: black;
+}
+
+.abtcont {
+    background-color: rgb(240, 82, 87);
+    width: 1500px;
+    height: 500px;
+    color: white;
+    text-align: center;
+}
+
+.abtcont ul {
+    list-style-type: none;
+    font-family: Gagalin;
+    text-align: center;
+    margin-right: 50px;
+    display: inline-flex;
+    padding: 10px 100px;
+}
+
+.abtcont ul li {
+    font-size: 40px;
+    text-shadow: 2px 2px crimson;
+}
+
+.abtcont ul img {
+    width: 70px;
+    height: 70px;
+}
+
+.abtcont h1 {
+    font-family: Gagalin;
+    font-size: 60px;
+    text-shadow: 2px 2px crimson;
+}
+
+.abtcont p {
+    font-size: 30px;
+    font-family: Gagalin;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    border: 2px dotted orangered;
+    text-shadow: 1px 1px rgb(165, 112, 214);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    color: Black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px lightskyblue;
+    font-size: 25px;
+}
+
+body {
+    background-image: linear-gradient(hsla(41, 81%, 75%, 1), hsla(141, 81%, 87%, 1), hsla(41, 88%, 75%, 1), hsla(358, 82%, 71%, 1));
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.img {
+    height: 300px;
+    width: 200px;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 50px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+p {
+    text-align: justify;
+}
+
+
+/* Style the header */
+
+.header {
+    height: 70%;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80");
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: auto;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+
+/* Page content */
+
+.content {
+    padding: 0px;
+    padding: 50px 10px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky+.content {
+    padding-top: 10px;
+}
+
+header.topbar {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 43px;
+    font-size: 30px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    color: white;
+}
+
+.topbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.topbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.content {
+    margin-top: 43px;
+    z-index: 0;
+    position: absolute;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: lightpink;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    opacity: 0.7;
+}
+
+#myBtn:hover {
+    background-color: yellow;
+}
